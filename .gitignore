@@ -1,6 +1,3 @@
-# .github but remove if CI are needed.
-.github/
-
 # OS / editor
 .DS_Store
 Thumbs.db
