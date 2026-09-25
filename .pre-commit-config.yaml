@@ -120,3 +120,8 @@ repos:
     hooks:
       - id: taplo-format
         name: "⚙️ TOML - Format Toml file"
+  - repo: https://github.com/AleksaC/hadolint-py
+    rev: v2.15.1
+    hooks:
+      - id: hadolint
+        name: "🐋 Hadolint - Containerfile lint"
