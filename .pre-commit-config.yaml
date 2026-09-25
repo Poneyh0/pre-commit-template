@@ -125,3 +125,8 @@ repos:
     hooks:
       - id: hadolint
         name: "🐋 Hadolint - Containerfile lint"
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
+        name: "🎬 Actions - Lint GitHub workflows"
